@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Visualizer</title>
-    <link rel="stylesheet" href="style.css">    
+    <title>Sound Sketchbook</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <main class="player">
-        <h1>Music Visualizer</h1>
-        <p class="subtitle">Choose a song and watch its frequencies move.</p>
+        <p class="eyebrow">A little sound experiment</p>
+        <h1>Sound Sketchbook <span aria-hidden="true">♪</span></h1>
+        <p class="subtitle">Pick a song and see what it looks like.</p>
 
-        <label class="file-picker" for="audio-file">Choose an audio file:</label>
+        <label class="file-picker" for="audio-file">Choose an audio file</label>
         <input id="audio-file" type="file" accept="audio/*">
 
-        <audio id="audio-player" controls></audio>
-        <p id="status" role="status" accept="audio/*"></p>
+        <audio id="audio-player" controls hidden></audio>
+        <p id="status" role="status">Choose a song to begin.</p>
 
-        <canvas id="visualizer" aria-label="Audio frequency visualizer"></canvas>
+        <section class="visualizer-section" aria-label="Music visualizer">
+            <p class="section-label">Sound drawing <span aria-hidden="true">✳</span></p>
+            <canvas id="visualizer" aria-label="Bars showing the song's frequencies"></canvas>
+        </section>
+
+        <footer>Made for listening, experimenting, and learning.</footer>
     </main>
 </body>
 </html>

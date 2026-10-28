@@ -5,6 +5,7 @@ const audio = document.querySelector("audio");
 const statusMessage = document.querySelector("#status");
 
 const barCount = 32;
+const barColors = ["#d66b45", "#e7a83e", "#508477", "#527c9c"];
 let audioContext = null;
 let analyser = null;
 let frequencyData = null;
@@ -53,7 +54,7 @@ function draw() {
         const x = i * (barWidth + gap);
         const y = height - barHeight;
 
-        context.fillStyle = `hsl(${255 + i * 2}, 85%, 68%)`;
+        context.fillStyle = barColors[i % barColors.length];
         context.fillRect(x, y, barWidth, barHeight);
     }
 
