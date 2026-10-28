@@ -6,6 +6,8 @@ My project is basically an Audio Visualizer, which plays an audio file, to see 3
 
 This screenshot shows the picture of the demo live on vercel - frespcrescent.vercel.app ![alt text](image.png)
 
+This screenshot shows the visualizer actually working ![alt text](image-1.png)
+
 ## How to run it
 
 1. Open frespcrescent.vercel.app on your browser, or just open the html along on your browser (along with the other files present).
