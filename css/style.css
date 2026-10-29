@@ -92,3 +92,43 @@ h1 {
         height: 220px;
     }
 }
+
+.site-nav {
+    display: flex;
+    gap:18px;
+    margin-bottom: 28px;
+    padding-bottom: 12px;
+    border-bottom: 2px dashed #b6a98d;
+}
+
+.site-nav a,
+.about-section a,
+footer a {
+    color: #8b432f;
+    font-weight: 700;
+}
+
+.site-nav a[aria-current="page"] {
+    color: #332d25;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.about-section {
+    margin-top: 24px;
+    line-height: 1.6;
+}
+
+.about-section h2 {
+    margin-bottom: 8px;
+    font-size:1.25rem;
+}
+
+.about-section p,
+.about-section ul {
+    color: #62594c;
+}
+
+footer {
+    margin-top: 28px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Sound Sketchbook</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="player">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Visualizer</a>
+            <a href="about.html" aria-current="page">About</a>
+        </nav>
+
+        <p class="eyebrow">Behind the sound drawing</p>
+        <h1>How it works</h1>
+        <p class="subtitle">A little about what the bars are showing.</p>
+
+        <section class="about-section">
+            <h2>Try the visualizer</h2>
+            <p>
+                Choose an audio file on the Visualizer page and press play.
+                The bars respond to the sound while it plays.
+            </p>
+            <p><a href="index.html">Go to the visualizer →</a></p>
+        </section>
+
+        <section class="about-section">
+            <h2>Where the bars come from</h2>
+            <p>
+                The Web Audio API analyzes the playing audio and provides
+                frequency values. The page draws those values as bars on a
+                canvas. Taller bars represent stronger values in those
+                frequency ranges.
+            </p>
+        </section>
+
+        <section class="about-section">
+            <h2>Made with</h2>
+            <ul>
+                <li>HTML for the page structure</li>
+                <li>CSS for the notebook-inspired appearance</li>
+                <li>JavaScript, Canvas, and the Web Audio API for the visualizer</li>
+            </ul>
+        </section>
+
+        <footer>
+            <a href="index.html">Back to the visualizer</a>
+        </footer>
+    </main>
+</body>
+</html>
