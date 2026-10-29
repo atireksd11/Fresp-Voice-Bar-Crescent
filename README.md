@@ -4,9 +4,9 @@ My project is basically an Audio Visualizer, which plays an audio file, to see 3
 
 ## Screenshot
 
-This screenshot shows the picture of the demo live on vercel - frespcrescent.vercel.app ![alt text](image.png)
+This screenshot shows the picture of the demo live on vercel - frespcrescent.vercel.app ![alt text](media/image.png)
 
-This screenshot shows the visualizer actually working ![alt text](image-1.png)
+This screenshot shows the visualizer actually working ![alt text](media/image-1.png)
 
 ## How to run it
 
